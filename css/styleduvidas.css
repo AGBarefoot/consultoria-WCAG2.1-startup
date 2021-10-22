@@ -1,0 +1,79 @@
+/** Consultoria em A11y: Seção de dúvidas frequentes**/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-bg {
+    max-width: 426px;
+    float: right;
+    width: 100%;
+}
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0;
+}
+
+
+.asked_main {
+    padding-top: 90px;
+}
+
+
+.asked_main .titlepage {
+    text-align: right;
+}
+
+.asked_main .titlepage h2 {
+    color:#00d9ff;
+    text-shadow: 0 3px 3px #2B4252;
+}
+
+.slider span {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 29px;
+    color:#2B4252 ;
+}
+
+.asked_main .ask_box {
+    max-width: 539px;
+    width: 100%;
+    float: left;
+}
+
+.simpaly {
+    padding: 10px 10px 10px 20px;
+    border:  #2B4252 solid 4px;
+    margin-bottom: 20px;
+    
+
+}
+
+.slider a:focus {
+    color: #2B4252;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 500;
+    outline: 4px solid;
+}
+
+.content {
+    font: 1em 'News Cycle', sans-serif;
+    padding: 1%;
+   
+}
+
+/** Fim da seção de perguntas frequentes **/

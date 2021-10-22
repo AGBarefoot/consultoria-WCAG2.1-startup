@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <meta name="keywords" content="WCAG, Consultoria, Desenvolvimento de Sistemas,FAQ.">
+      <meta name="description" content="Seção de Perguntas Frequentes desenvolvida para atender as regras 2.1.1 e 2.4.7 da WCAG: acionamento via teclado e foco visível. Portifólio de Consultoria">
+      <meta name="author" content="AG Barefoot">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styleduvidas.css">
+      <link rel="stylesheet" href="css/responsive.css">  
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+      <title>WCAG | 2.1.1. & 2.4.7</title>
+      <style>
+      #imgresponsive{
+
+      width: 500px;
+      position: relative;
+      }
+      #imgresponsive {
+      width: 100%
+      }
+      img {
+      width: 100%
+      }
+     </style>
+      </head>   
+      <body class="main-layout"> 
+      <div  class="asked_main" role="contentinfo">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Perguntas <span class="white"> Frequentes</span></h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6">
+                  <div id ="imgresponsive" class="ask_img">
+                     <figure><img src="images/ask.jpg" alt="Casal sorridente olha para um notebook aberto, com a moça utilizando o teclado."/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="ask_box">
+                     <div class="simpaly">
+                        <div class="slider"><span>+</span><a href="#">
+                          <b>Preciso pagar mensalidade para usar?</b></a>
+                        </div>
+                        <div class="content">
+                           <p><big>Não temos mensalidades, todos os nossos serviços ficam disponíveis para contratação sem precisar efetuar pagamentos mensais.
+                              Basta escolher a especialidade e o parceiro que precisa, tudo muito simples.</big>  
+                           </p>
+                        </div>
+                     </div>
+                     <div class="simpaly">
+                        <div class="slider"><span>+</span><a href="#">
+                           <b>Tem carência ou limite de idade?</b></a>
+                        </div>
+                        <div class="content">
+                           <p><big>Não tem carência e nem limite de idade, nossos serviços podem ser contratados à qualquer momento, de acordo com sua necessidade.</big> 
+                           </p>
+                        </div>
+                     </div>
+                     <div class="simpaly">
+                        <div class="slider"><span>+</span><a href="#">
+                           <b>Como se marca a consulta?</b></a>
+                        </div>
+                        <div class="content">
+                           <p><big>1.Pesquise a especialidade desejada e escolha o profissional que melhor se adeque a sua necessidade;<br>
+                              2.Solicite o agendamento e aguarde nosso contato em até 24 horas;<br>
+                              3.O agendamento e o link de pagamento serão encaminhados para seu e-mail;<br>
+                              4.Confirme sua consulta através do e-mail recebido;<br>
+                              5.Aguarde o recebimento do Voucher de Liberação, que é enviado por e-mail após constar o pagamento no sistema;<br>
+                              6.Compareça ao parceiro que escolheu com o Voucher de Liberação impresso em mãos.
+                              E seja atendido no horário marcado!</big> 
+                           </p>  
+                        </div>
+                     </div>
+                     <div class="simpaly">
+                        <div class="slider"><span>+</span><a href="#">
+                           <b>Como faço para marcar os exames?</b></a>
+                        </div>
+                        <div class="content">
+                           <p><big>1.Encaminhe o pedido do exame através de nosso site;<br>
+                           2.Aguarde nosso contato:  em até 24 horas nossos atendentes disponibilizarão o orçamento e laboratórios que realizam os exames solicitados;<br>
+                          3.Se houver necessidade, seu exame será agendado;<br>
+                          4.Aguarde o recebimento do Voucher de Liberação, que é enviado por e-mail  após constar o pagamento no sistema;<br>
+                          5.Compareça ao parceiro que escolheu com o Voucher de Liberação impresso em mãos e seja atendido!
+                             </big> 
+                           </p>
+                        </div>
+                     </div>
+                     <div class="simpaly">
+                        <div class="slider"><span>+</span><a href="#">
+                           <b>Pago direto na Clínica ou para o Parceiro?</b></a>
+                        </div>
+                        <div class="content">
+                           <p><big>Não, para que tenha direito aos valores praticados em nosso site, é necessário que o serviço seja contratado e pago conosco. Portanto, é preciso apresentar o Voucher de Liberação no momento da realização. Nossos parceiros não aceitam o atendimento sem o voucher! </big> 
+                           </p>
+                        </div>                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div vw class="enabled" id="PluginLibras" aria-labelledby="tradutordelibras">
+         <div vw-access-button class="active" role="button"></div>
+                     <div vw-plugin-wrapper>
+                       <div class="vw-plugin-top-wrapper"></div>
+                     </div>
+                     </div>
+                     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                     <script>
+                     new window.VLibras.Widget('https://vlibras.gov.br/app');
+                     </script> 
+      <script src="js/jquery.min.js"></script>
+      <script>
+         $('.content').hide();
+         
+         $('.slider').click(function() {
+         $(this).next('.content').slideToggle();
+         this.toggle = !this.toggle;
+         $(this).children("span").text(this.toggle ? "-" : "+");
+         return false;
+         });
+      </script>
+    </body>
+    </html>
+  
